@@ -18,11 +18,11 @@ export default {
   children: [
     require('./home').default,
     require('./contact').default,
-    require('./login').default,
-    require('./register').default,
-    require('./about').default,
-    require('./privacy').default,
-    require('./admin').default,
+    // require('./login').default,
+    // require('./register').default,
+    require('./project').default,
+    // require('./privacy').default,
+    // require('./admin').default,
 
     // Wildcard routes, e.g. { path: '*', ... } (must go last)
     require('./notFound').default,
