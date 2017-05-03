@@ -14,6 +14,7 @@ import s from './Layout.css';
 import Header from '../Header';
 import Feedback from '../Feedback';
 import Footer from '../Footer';
+import Pacmanbg from './pacmanbg.jpg';
 
 class Layout extends React.Component {
   static propTypes = {
@@ -23,6 +24,7 @@ class Layout extends React.Component {
   render() {
     return (
       <div>
+        <img className={s.pacmanBG} src={Pacmanbg} />
         <Header />
         {this.props.children}
         {/*<Feedback />*/}

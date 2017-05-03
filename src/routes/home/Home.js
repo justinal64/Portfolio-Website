@@ -11,6 +11,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Home.css';
+// import Pacman from './img/pacmanbg.jpg';
 
 class Home extends React.Component {
     static propTypes = {
@@ -25,8 +26,11 @@ render() {
     return (
             <div className={s.root}>
                 <div className={s.container}>
-                    <h1>React.js New</h1>
-                        <p>This is my homepage</p>
+                    {/*<h1>React.js New</h1>*/}
+                    {/*<p>This is my homepage</p>*/}
+                    <div >
+                        {/*<img className={s.pacmanBG} src={Pacman} alt="pacman is awesome"/>*/}
+                    </div>
                 </div>
             </div>
         );
