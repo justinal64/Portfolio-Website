@@ -24,7 +24,7 @@ class Layout extends React.Component {
   render() {
     return (
       <div>
-        <img className={s.pacmanBG} src={Pacmanbg} />
+        {/*<img className={s.pacmanBG} src={Pacmanbg} />*/}
         <Header />
         {this.props.children}
         {/*<Feedback />*/}
