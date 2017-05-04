@@ -26,7 +26,7 @@ render() {
     return (
             <div className={s.root}>
                 <div className={s.container}>
-                    {/*<h1>React.js New</h1>*/}
+                    <h1>React.js New</h1>
                     {/*<p>This is my homepage</p>*/}
                     <div >
                         {/*<img className={s.pacmanBG} src={Pacman} alt="pacman is awesome"/>*/}
