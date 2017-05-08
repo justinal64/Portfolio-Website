@@ -16,11 +16,29 @@
     .container {
         margin: 0 auto;
         /*padding: 0 0 40px;*/
-        /*width: 100%;*/
-        background-color: white;
+        width: 80%;
+        /*background-color: white;*/
+        flex-direction: center;
+    }
+    
+    .center {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .flexContainer article {
+        flex: 1 1 33%;
+    }
+    
+    .transparent {
+        height: 2em;
+        background-color: transparent;
     }
     
     section {
+        background-color: white;
         display: flex;
     }
     
@@ -34,13 +52,6 @@
         margin: 1rem;
         -ms-flex: 1 0 0px;
         flex: 1;
-        /* shortcut for "flex-grow: 1". Note that it MUST be a unitless value to work; defined with a unit (e.g. flex: 1px) the shortcut would alter the flex-basis property. */
-    }
-    
-    article.breaking {
-        -ms-flex-grow: 2;
-        flex: 2;
-        /* shortcut for "flex-grow: 2" */
     }
     
     article img {
