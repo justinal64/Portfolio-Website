@@ -9,20 +9,20 @@
 
 import React from 'react';
 import Layout from '../../components/Layout';
-import Page from '../../components/Page';
+import Project from './Project';
+
+const title = 'Projects';
 
 export default {
 
   path: '/project',
 
-  async action() {
-    const data = await require.ensure([], require => require('./project.md'), 'project');
-
+  action() {
     return {
-      title: data.title,
-      chunk: 'project',
-      component: <Layout><Page {...data} /></Layout>,
+      title,
+      component: <Layout><Project title={title} /></Layout>,
     };
   },
 
 };
+
