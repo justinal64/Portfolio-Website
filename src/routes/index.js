@@ -10,6 +10,7 @@
 /* eslint-disable global-require */
 
 // The top-level (parent) route
+
 export default {
 
   path: '/',
@@ -18,8 +19,6 @@ export default {
   children: [
     require('./home').default,
     require('./contact').default,
-    // require('./login').default,
-    // require('./register').default,
     require('./project').default,
     // require('./privacy').default,
     // require('./admin').default,

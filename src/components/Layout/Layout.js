@@ -16,6 +16,7 @@ import Feedback from '../Feedback';
 import Footer from '../Footer';
 import Pacmanbg from './pacmanbg.jpg';
 
+
 class Layout extends React.Component {
   static propTypes = {
     children: PropTypes.node.isRequired,
