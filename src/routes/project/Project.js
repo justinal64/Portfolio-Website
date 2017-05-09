@@ -74,10 +74,47 @@ class Project extends React.Component {
                             <h1>Washington D.C. Attacked By Flying Saucers</h1>
                             <h2>Dateline Washington D.C.</h2>
                             <h3>Frank Bragg reporting</h3>
-                            <p>The country was brought to a standstill today when flying saucers – presumably from Mars, although Venusians have also been suspected – appeared over the nation’s capital, intent on destruction. Curiously, they only attacked Pennsylvania Avenue, and have not appeared elsewhere in the country.</p>
+                            <p>I struggled to get my children to listen to the bible being read to them(4 children under the age of 3),
+                               and this is the solution I came up with. I use simple animations(using ng-animate) to hold the childs 
+                               attention while the verses are read to them. With the click of a button the user can also be rerouted
+                               to an adult version of the app that uses the Digital Bible Platform API to pull back the King James 
+                               version of the bible. This project combines my knowledge of CSS, HTML, Javascript, Angular 1, Materialize,
+                               Digital Bible Platform API, and Firebase.</p>
                         </article>     
                     </section>
-                </div>               
+                </div>  
+                <div>
+                    <h1 className={s.center}>Side Projects</h1>
+                    <section>
+                        <article className={s.breaking}>
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/earth-vs-the-flying-saucers.jpg" alt="Photograph of a flying saucer over the US Capitol building" />
+                            <h1>Washington D.C. Attacked By Flying Saucers</h1>
+                            <h2>Dateline Washington D.C.</h2>
+                            <h3>Frank Bragg reporting</h3>
+                            <p>The country was brought to a standstill today when flying saucers – presumably from Mars, although Venusians have also been suspected – appeared over the nation’s capital, intent on destruction. Curiously, they only attacked Pennsylvania Avenue, and have not appeared elsewhere in the country.</p>
+                        </article> 
+                        <article className={s.breaking}>
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/earth-vs-the-flying-saucers.jpg" alt="Photograph of a flying saucer over the US Capitol building" />
+                            <h1>Washington D.C. Attacked By Flying Saucers</h1>
+                            <h2>Dateline Washington D.C.</h2>
+                            <h3>Frank Bragg reporting</h3>
+                            <p>The country was brought to a standstill today when flying saucers – presumably from Mars, although Venusians have also been suspected – appeared over the nation’s capital, intent on destruction. Curiously, they only attacked Pennsylvania Avenue, and have not appeared elsewhere in the country.</p>
+                        </article>
+                        <article className={s.breaking}>
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/earth-vs-the-flying-saucers.jpg" alt="Photograph of a flying saucer over the US Capitol building" />
+                            <h1>Washington D.C. Attacked By Flying Saucers</h1>
+                            <h2>Dateline Washington D.C.</h2>
+                            <h3>Frank Bragg reporting</h3>
+                            <p>I struggled to get my children to listen to the bible being read to them(4 children under the age of 3),
+                               and this is the solution I came up with. I use simple animations(using ng-animate) to hold the childs 
+                               attention while the verses are read to them. With the click of a button the user can also be rerouted
+                               to an adult version of the app that uses the Digital Bible Platform API to pull back the King James 
+                               version of the bible. This project combines my knowledge of CSS, HTML, Javascript, Angular 1, Materialize,
+                               Digital Bible Platform API, and Firebase.</p>
+                        </article>     
+                    </section>
+                </div> 
+                <div className={s.transparentFooter}></div>                             
             </div>
         </div>
     );

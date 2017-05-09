@@ -26,6 +26,7 @@
         justify-content: center;
         flex-direction: column;
         text-align: center;
+        color: white;
     }
     
     .flexContainer article {
@@ -34,6 +35,11 @@
     
     .transparent {
         height: 2em;
+        background-color: transparent;
+    }
+    
+    .transparentFooter {
+        height: 6em;
         background-color: transparent;
     }
     
