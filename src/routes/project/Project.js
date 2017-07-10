@@ -11,7 +11,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import s from './Project.css';
-
+// import TheBibleApp from '/assets/img/project/ChildrensBible';
 
 
 class Project extends React.Component {
@@ -24,7 +24,7 @@ class Project extends React.Component {
                     <h1 className={s.center}>Front End Projects</h1>
                     <section>
                         <article className={s.breaking}>
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/earth-vs-the-flying-saucers.jpg" alt="Photograph of a flying saucer over the US Capitol building" />
+                            {/*<img src={TheBibleApp} alt="Photograph of a flying saucer over the US Capitol building" />*/}
                             <h1>TheBibleApp</h1>
                             <h2>Dateline Washington D.C.</h2>
                             <h3>Frank Bragg reporting</h3>
