@@ -18,15 +18,15 @@ Next type the following:
 <br />
 Next type the following:
 ```
-http-server -p 9999
+yarn start
 ```
-Then navigate to [http://localhost:9999](http://localhost:9999) in your browser to view the output.
+Then navigate to [http://localhost:3001](http://localhost:3001) in your browser to view the output.
 
-## Screenshot
+<!--## Screenshot
 This is what the website looks like when it is loaded.
 <br/>
 ![HomePage](./img/screenshots/homepage.png)
-<br/>
+<br/>-->
 
 ## Contributors
 - [Justin Leggett](https://github.com/justinal64)
