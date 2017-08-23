@@ -15,8 +15,6 @@ npm install
 This will install all of the dependencies for the project.
 <br />
 Next type the following:
-<br />
-Next type the following:
 ```
 yarn start
 ```
